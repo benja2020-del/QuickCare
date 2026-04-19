@@ -1,0 +1,20 @@
+app/
+├── src/main/java/com/quickcare/
+│   ├── models/
+│   │   ├── TypeUrgence.kt
+│   │   ├── Urgence.kt
+│   │   ├── Hopital.kt
+│   │   └── LocalisationUtilisateur.kt
+│   ├── services/
+│   │   ├── RechercheHopital.kt
+│   │   └── HopitalDataProvider.kt
+│   ├── ui/
+│   │   ├── MainActivity.kt
+│   │   └── ResultatActivity.kt
+│   └── QuickCareApplication.kt
+└── res/
+    ├── layout/
+    │   ├── activity_main.xml
+    │   └── activity_resultat.xml
+    └── values/
+        └── strings.xml

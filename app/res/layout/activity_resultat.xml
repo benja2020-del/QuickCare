@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tv_titre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hôpital recommandé"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#D32F2F"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/tv_nom_hopital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom de l'hôpital"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_adresse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adresse"
+                android:textSize="14sp"
+                android:textColor="#666"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance"
+                android:textSize="16sp"
+                android:textColor="#4CAF50"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services disponibles"
+        android:textSize="14sp"
+        android:textColor="#666"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_itineraire"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🗺️ Ouvrir l'itinéraire"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_retour"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="◀ Retour"
+        android:textSize="16sp"
+        style="@style/Widget.Material3.Button.Outlined"/>
+
+</LinearLayout>

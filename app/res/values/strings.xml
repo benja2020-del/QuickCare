@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickCare</string>
+    <string name="title_activity_main">Urgence Médicale</string>
+    <string name="title_activity_resultat">Hôpital Recommandé</string>
+    <string name="btn_accident">🚑 Accident</string>
+    <string name="btn_cardiaque">❤️ Crise Cardiaque</string>
+    <string name="btn_accouchement">👶 Urgence Accouchement</string>
+    <string name="btn_autre">🏥 Autre Urgence</string>
+    <string name="question_urgence">Quel est le type d\'urgence ?</string>
+    <string name="btn_itineraire">🗺️ Ouvrir l\'itinéraire</string>
+    <string name="btn_retour">◀ Retour</string>
+    <string name="hopital_recommande">Hôpital recommandé</string>
+    <string name="distance_label">Distance :</string>
+    <string name="services_label">Services :</string>
+    <string name="permission_denied">Permission refusée</string>
+    <string name="localisation_en_cours">Localisation en cours...</string>
+    <string name="aucun_hopital">Aucun hôpital disponible</string>
+</resources>
